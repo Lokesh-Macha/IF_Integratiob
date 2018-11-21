@@ -1,0 +1,13 @@
+Steps taken to Integrate IF services in Life Ray
+
+1. Created a private key file with the key and cert files shared by IF team using OpenSSL
+
+2. Import the private key file in the Truststore of LifeRay
+
+3. Open Https connection and apply necessary parameters
+
+4. Create a SSL factory object using the Truststore for authentication.
+
+5. prepare the request and response objects.
+
+6. Hit the services on the connection opened and get the response.
